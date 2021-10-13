@@ -1,0 +1,73 @@
+@tailwind base;
+
+/* Write your own custom base styles here */
+
+/* Start purging... */
+@tailwind components;
+/* Stop purging. */
+
+/* Write your own custom component styles here */
+
+/* Start purging... */
+@tailwind utilities;
+/* Stop purging. */
+
+/* Generics */
+
+body {
+  background-color: rgba(17, 24, 39);
+}
+
+input {
+  color: black;
+  border-radius: 5px;
+}
+
+/* Custom Classes */
+
+.marker-active {
+  z-index: 1;
+}
+
+
+
+
+.customButton {
+  @apply m-2 bg-blue-500 transition duration-150 ease-in-out focus:outline-none rounded text-gray-800 border border-gray-300 px-6 py-2 text-sm w-auto h-12  flex justify-center items-center;
+}
+
+
+.iconsRecording{
+
+  @apply w-6 h-6 mx-2 text-green-700
+}
+
+
+
+
+.slick-list {
+  width: 100%;
+  height: 100%;
+  background: red !important;
+
+}
+
+.slick-track {
+  background: blue !important;
+  width: 100%;
+  height: 100%;
+
+
+}
+
+.slick-slider {
+  width: 100%;
+  height: 100%;
+  background: green;
+
+
+}
+
+
+
+
